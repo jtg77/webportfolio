@@ -29,16 +29,16 @@
 		  <div class="collapse navbar-collapse" navbar-id="navbarTogglerDemo02">
 		    <ul class="navbar-nav mx-auto">
 		      <li class="nav-item active">
-		        <a class="nav-link" href="#">Home</a>
+		        <a class="nav-link" href="#home">Home</a>
 		      </li>
 		      <li class="nav-item">
-		        <a class="nav-link" href="#">About</a>
+		        <a class="nav-link" href="#about">About</a>
 		      </li>
 		      <li class="nav-item">
-		        <a class="nav-link" href="#">Services</a>
+		        <a class="nav-link" href="#services">Services</a>
 		      </li>
 		      <li class="nav-item">
-		        <a class="nav-link" href="#">Contact</a>
+		        <a class="nav-link" href="#contact">Contact</a>
 		      </li>
 		    </ul>
 		  </div>
@@ -47,7 +47,7 @@
 		<!----------------Navigation End -------------------->
 
 		<!----------------Background Start ------------------>
-		<div class="bg-dark	">
+		<div class="bg-dark">
 			<img src="./images/bgbg.jpg" class="img-fluid">
 		</div>
 		<div class="heading-content text-center">
@@ -58,7 +58,7 @@
 		<!----------------Background End ------------------>
 	</div>
 	<!---------------- About Start ------------------>
-	<div id="about" class="container mt-5 mb-5">
+	<div id="about" class="offset container mt-5 mb-5">
 		<div class="post-heading text-center">
 			<h3 class="display-4 font-weight-bold">About Me</h3>
 			<hr class="w-50 mx-auto pb-5">
@@ -84,7 +84,7 @@
 	<!---------------- About End ------------------>
 
 	<!---------------- Services Start ------------------>
-	<div id="about" class="container mt-5">
+	<div id="services" class="offset container mt-5">
 		<div class="post-heading text-center">
 			<h3 class="display-4 font-weight-bold">Services</h3>
 			<hr class="w-50 mx-auto">
@@ -108,7 +108,7 @@
 	<!---------------- Gallery End ------------------>
 
 	<!---------------- Contact Start ------------------>
-	<div id="contact" class="contact w-50 mx-auto mt-5 mb-5">
+	<div id="contact" class="offset container w-50 mx-auto mt-5 mb-5">
 		<div class="post-heading text-center">
 			<h3 class="display-4 font-weight-bold">Contact Me</h3>
 			<hr class="w-50 mx-auto pb-5">
@@ -126,20 +126,34 @@
 		    <label for="text">Your Message:</label>
 		    <textarea class="form-control"></textarea>
 		  </div>
-		  <button type="submit" class="btn btn-dark">Send</button>
+		  <button type="button" class="btn btn-primary mb-3 bg-dark" data-toggle="modal" data-target="#exampleModal">Send Email</button>
+		  					  </div>
+		  					  
+		  					  <!-- Modal -->
+		  					  <div class="modal fade text-dark" id="exampleModal" role="dialog" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		  					    <div class="modal-dialog" role="document">
+		  					      <div class="modal-content">
+		  					        <div class="modal-header">
+		  					          <h5 class="modal-title" id="exampleModalLabel">Thank you for contacting us!</h5>
+		  					          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		  					            <span aria-hidden="true">&times;</span>
+		  					          </button>
+		  					        </div>
+		  					        <div class="modal-body">
+		  					         <h6>Message Successfully Sent!</h6>
+		  					        </div>
+		  					        <div class="modal-footer">
+		  					          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+		  					        </div>
+		  					      </div>
+		  					    </div>
+		  					  </div>
 		</form>
 	</div>
 
 	<!---------------- Contact End ------------------>
 
 	<!---------------- Footer Start ------------------>	
-
-
-
-
-
-
-	</div>
 	
 	<!---------------- Footer End ------------------>
 
