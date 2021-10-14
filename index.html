@@ -17,50 +17,56 @@
 
 	<title>Justin Guardalupe Dev Portfolio</title>
 </head>
+	<!----------------Navigation Start ------------------>
+
+	<nav class="navbar navbar-expand-lg navbar-dark bg-light">
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+	  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+	    <div class="navbar-nav mx-auto">
+	      <a class="nav-link active" href="#home">Home <span class="sr-only">(current)</span></a>
+	      <a class="nav-link" href="#about">About</a>
+	      <a class="nav-link" href="#services">Services</a>
+	       <a class="nav-link" href="#contact">contact</a>
+	    </div>
+	  </div>
+	</nav>
+
+	<!----------------Navigation End -------------------->
 <body class="text-center">
-	<div id="home">
-		<!----------------Navigation Start ------------------>
-
-		<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-		      <span class="navbar-toggler-icon"></span>
-		    </button>
-
-		  <div class="collapse navbar-collapse" navbar-id="navbarNav">
-		    <ul class="navbar-nav mx-auto">
-		      <li class="nav-item active">
-		        <a class="nav-link" href="#home">Home</a>
-		      </li>
-		      <li class="nav-item">
-		        <a class="nav-link" href="#about">About</a>
-		      </li>
-		      <li class="nav-item">
-		        <a class="nav-link" href="#services">Services</a>
-		      </li>
-		      <li class="nav-item">
-		        <a class="nav-link" href="#contact">Contact</a>
-		      </li>
-		    </ul>
-		  </div>
-		</nav>
-
-		<!----------------Navigation End -------------------->
-
-		<!----------------Background Start ------------------>
-		<div class="bg-dark">
-			<img src="./images/bgbg.jpg" class="img-fluid">
+<header>
+	<!---------------- Landing Page Start --------------->
+	<div id="home" class="view align-items-center">
+		<div class="mask rgba-black-strong">
+			<div class="container-fluid d-flex p-0">
+				<div class="row d-flex m-0" id="bgbg">
+					<div class="col-md-12 p-0">
+						<h2>Hello, I'm</h2>
+						<h4>Justin Guardalupe</h4>
+						<p>Soon to be Full Stack Web Developer</p>
+					</div>
+				</div>
+			</div>
 		</div>
-		<div class="heading-content col-lg-6 col-md-6 text-center">
-			<h5>Hello, I'm</h5>
-			<h1>Justin Guardalupe</h1>
-			<p>Soon to be Full Stack Web Developer</p>
-		</div>
-		<!----------------Background End ------------------>
 	</div>
+</header>
+		
+	<!--------------- Landing Page End ------------------>
+
+	<!-- </div>
+
+
+<div class="landing-text">
+			<h2>Hello, I'm</h2>
+			<h4>Justin Guardalupe</h4>
+			<p>Soon to be Full Stack Web Developer</p>
+
+		</div> -->
 	<!---------------- About Start ------------------>
-	<div id="about" class="offset container mt-2 mb-2">
+	<div id="about" class="offset container mb-2">
 		<div class="post-heading text-center">
-			<h3 class="display-4 font-weight-bold">About Me</h3>
+			<h3 class="font-weight-bold">About Me</h3>
 			<hr class="w-50 mx-auto pb-5">
 		</div>
 		<div class="row">
@@ -84,9 +90,9 @@
 	<!---------------- About End ------------------>
 
 	<!---------------- Services Start ------------------>
-	<div id="services" class="offset container mt-2">
+	<div id="services" class="offset container">
 		<div class="post-heading text-center">
-			<h3 class="display-4 font-weight-bold">Services</h3>
+			<h3 class="font-weight-bold">Services</h3>
 			<hr class="w-50 mx-auto">
 		</div>
 	</div>
@@ -109,8 +115,8 @@
 
 	<!---------------- Contact Start ------------------>
 	<div id="contact" class="offset container-liquid w-50 mx-auto mt-1 mb-5">
-		<div class="post-heading text-center">
-			<h3 class="display-4 font-weight-bold">Contact Me</h3>
+		<div class="post-heading">
+			<h3 class="font-weight-bold">Contact Me</h3>
 			<hr class="w-50 mx-auto pb-2">
 		</div>
 		<form action="/action_page.php">
