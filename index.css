@@ -31,7 +31,7 @@ body {
 }
 .heading-content div {
 	background: url(./images/bgbg.jpg);
-	background-size: 1920px 1080px;
+	background-size: 50% 50%;
 	background-repeat: no-repeat;
 }
 
